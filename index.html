@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2d5016">
+<title>Native Sons — Weekly Availability</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:#fafaf7;color:#1a1a1a;line-height:1.4;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:#2d5016;text-decoration:none}
+a:hover{text-decoration:underline}
+
+header{
+  background:#2d5016;color:#fff;padding:14px 16px;
+  position:sticky;top:0;z-index:10;
+  box-shadow:0 1px 3px rgba(0,0,0,.08);
+}
+.brand{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.brand h1{font-size:18px;font-weight:600;letter-spacing:.2px}
+.brand .tag{font-size:12px;background:rgba(255,255,255,.15);padding:2px 8px;border-radius:10px}
+.contact-strip{font-size:13px;margin-top:6px;opacity:.92}
+.contact-strip a{color:#fff;text-decoration:underline}
+.week-strip{font-size:12px;background:#fff;border-bottom:1px solid #e6e6e0;padding:8px 16px;color:#555}
+.week-strip strong{color:#2d5016}
+
+main{max-width:1100px;margin:0 auto;padding:0 16px 100px}
+
+.search-hero{padding:24px 0 12px}
+.search-hero h2{font-size:22px;margin-bottom:12px;color:#2d5016;font-weight:600}
+.search-box{
+  display:flex;align-items:center;gap:8px;
+  background:#fff;border:1px solid #d6d6cf;border-radius:12px;
+  padding:12px 14px;font-size:16px;
+  box-shadow:0 1px 2px rgba(0,0,0,.04);
+  transition:border-color .15s, box-shadow .15s;
+}
+.search-box:focus-within{border-color:#2d5016;box-shadow:0 0 0 3px rgba(45,80,22,.12)}
+.search-box svg{flex:none;opacity:.5}
+.search-box input{
+  flex:1;border:0;outline:0;background:transparent;
+  font-size:16px;color:#1a1a1a;font-family:inherit;
+}
+.search-box input::placeholder{color:#9a9a92}
+.clear-btn{
+  border:0;background:transparent;color:#777;font-size:18px;cursor:pointer;
+  padding:2px 6px;border-radius:6px;line-height:1;
+}
+.clear-btn:hover{background:#eee}
+.clear-btn[hidden]{display:none}
+
+.chips{
+  display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;
+}
+.chip{
+  background:#fff;border:1px solid #d6d6cf;border-radius:20px;
+  padding:6px 12px;font-size:13px;color:#444;cursor:pointer;
+  user-select:none;transition:all .15s;
+  display:inline-flex;align-items:center;gap:6px;
+}
+.chip:hover{border-color:#2d5016;color:#2d5016}
+.chip.active{background:#2d5016;color:#fff;border-color:#2d5016}
+.chip .count{background:rgba(0,0,0,.08);padding:1px 6px;border-radius:8px;font-size:11px}
+.chip.active .count{background:rgba(255,255,255,.18)}
+
+.summary{
+  display:flex;justify-content:space-between;align-items:center;
+  margin:18px 0 10px;font-size:13px;color:#666;
+}
+.summary strong{color:#2d5016;font-weight:600}
+
+.results{display:flex;flex-direction:column;gap:8px}
+.plant{
+  background:#fff;border:1px solid #ececea;border-radius:10px;
+  padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-start;
+  transition:border-color .15s, transform .1s;
+}
+.plant:hover{border-color:#bcd1b6}
+.plant-main{flex:1 1 240px;min-width:0}
+.plant-name{font-weight:600;font-size:15px;color:#1a1a1a;font-style:italic}
+.plant-common{color:#666;font-size:13px;margin-top:2px}
+.plant-meta{
+  display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:6px;
+  font-size:12px;color:#555;
+}
+.plant-meta .pill{
+  background:#f3f3ee;padding:2px 8px;border-radius:10px;font-size:11px;
+}
+.pill.bloom{background:#fff0e6;color:#b04a16}
+.pill.cal{background:#e8f4e8;color:#2d5016}
+.pill.section{background:#eef0f5;color:#3a4664}
+.plant-sizes{
+  display:flex;flex-direction:column;gap:4px;align-items:flex-end;
+  font-size:13px;
+}
+.size{
+  display:flex;align-items:center;gap:6px;
+  background:#f7f7f3;border-radius:6px;padding:3px 8px;
+}
+.size .label{color:#666;font-size:11px;text-transform:uppercase;letter-spacing:.5px}
+.size .price{color:#2d5016;font-weight:600}
+
+.no-results{
+  text-align:center;padding:60px 20px;color:#888;
+}
+.no-results svg{opacity:.3;margin-bottom:12px}
+.no-results h3{color:#555;font-size:18px;margin-bottom:6px}
+.no-results p{font-size:14px}
+
+footer{
+  position:fixed;left:0;right:0;bottom:0;background:#fff;
+  border-top:1px solid #ececea;padding:10px 16px;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:12px;color:#666;
+}
+footer a{font-weight:600}
+
+@media (max-width:600px){
+  .search-hero h2{font-size:18px}
+  .plant{padding:10px 12px}
+  .plant-sizes{flex-direction:row;flex-wrap:wrap;align-items:center}
+  .plant-name{font-size:14px}
+}
+
+@media (min-width:760px){
+  .plant{padding:14px 16px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <h1>Native Sons Wholesale Nursery</h1>
+    <span class="tag">Weekly Availability</span>
+  </div>
+  <div class="contact-strip">
+    <a href="mailto:orders@nativeson.com">orders@nativeson.com</a> &middot;
+    <a href="tel:18054815996">805.481.5996</a>
+  </div>
+</header>
+
+<div class="week-strip">
+  Showing availability for <strong id="weekLabel">—</strong> &middot;
+  Updated <strong id="generatedLabel">—</strong>
+</div>
+
+<main>
+  <section class="search-hero">
+    <h2>Find plants</h2>
+    <div class="search-box">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="q" placeholder="Search by botanical, common name, or origin…" autocomplete="off" autocorrect="off" spellcheck="false">
+      <button class="clear-btn" id="clearBtn" hidden aria-label="Clear search">&times;</button>
+    </div>
+    <div class="chips" id="chips" aria-label="Filters"></div>
+  </section>
+
+  <div class="summary">
+    <div><strong id="resultCount">0</strong> plants</div>
+    <div id="filterActive" hidden>filtered</div>
+  </div>
+
+  <div class="results" id="results"></div>
+</main>
+
+<footer>
+  <span>Public availability for retail customers</span>
+  <a href="mailto:orders@nativeson.com">orders@nativeson.com</a>
+</footer>
+
+<script src="availability_data.js"></script>
+<script>
+(function(){
+  const DATA = window.AVAILABILITY;
+  if (!DATA) { document.getElementById('results').innerHTML = '<div class="no-results"><h3>Data unavailable</h3><p>The availability data failed to load.</p></div>'; return; }
+
+  // Build a flat search index
+  const FLAT = [];
+  for (const p of DATA.plants) {
+    for (const s of p.sizes) {
+      FLAT.push({
+        botanical: p.botanical,
+        common: p.common,
+        section: p.section,
+        height: p.height,
+        width: p.width,
+        flower_color: p.flower_color,
+        flower_time: p.flower_time,
+        origin: p.origin,
+        bloom: p.bloom,
+        bud: p.bud,
+        native: !!p.native,
+        container: s.container,
+        price: s.price,
+        hay: (
+          p.botanical + ' ' +
+          (p.common || '') + ' ' +
+          (p.origin || '') + ' ' +
+          (p.flower_color || '') + ' ' +
+          (p.section || '') + ' ' +
+          (p.height || '') + ' ' +
+          (p.width || '')
+        ).toLowerCase()
+      });
+    }
+  }
+
+  // Containers
+  const CONTAINERS = ['4"', '1gal', '5gal', '15gal', '7gal', '20" boxes'];
+
+  // Build chips
+  const chipsEl = document.getElementById('chips');
+  const state = { q: '', containers: new Set(), bloomsOnly: false, calOnly: false };
+
+  function rebuildChips() {
+    chipsEl.innerHTML = '';
+    // Container chips
+    for (const c of CONTAINERS) {
+      const count = FLAT.filter(r => r.container === c).length;
+      if (count === 0) continue;
+      const el = document.createElement('button');
+      el.className = 'chip' + (state.containers.has(c) ? ' active' : '');
+      el.innerHTML = `<span>${c}</span><span class="count">${count}</span>`;
+      el.onclick = () => {
+        if (state.containers.has(c)) state.containers.delete(c);
+        else state.containers.add(c);
+        rebuildChips();
+        render();
+      };
+      chipsEl.appendChild(el);
+    }
+    // Bloom chip
+    const bloomCount = FLAT.filter(r => r.bloom).length;
+    const bloomEl = document.createElement('button');
+    bloomEl.className = 'chip' + (state.bloomsOnly ? ' active' : '');
+    bloomEl.innerHTML = `<span>🌸 In bloom</span><span class="count">${bloomCount}</span>`;
+    bloomEl.onclick = () => { state.bloomsOnly = !state.bloomsOnly; rebuildChips(); render(); };
+    chipsEl.appendChild(bloomEl);
+    // California only
+    const calCount = FLAT.filter(r => r.origin && r.origin.toLowerCase().includes('california') || r.native).length;
+    const calEl = document.createElement('button');
+    calEl.className = 'chip' + (state.calOnly ? ' active' : '');
+    calEl.innerHTML = `<span>CA native</span><span class="count">${calCount}</span>`;
+    calEl.onclick = () => { state.calOnly = !state.calOnly; rebuildChips(); render(); };
+    chipsEl.appendChild(calEl);
+  }
+
+  function escapeHTML(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function priceLabel(p) {
+    return p == null ? 'Call' : '$' + p.toFixed(2);
+  }
+
+  function render() {
+    const q = state.q.trim().toLowerCase();
+    let filtered = FLAT;
+    if (q) filtered = filtered.filter(r => r.hay.includes(q));
+    if (state.containers.size) filtered = filtered.filter(r => state.containers.has(r.container));
+    if (state.bloomsOnly) filtered = filtered.filter(r => r.bloom);
+    if (state.calOnly) filtered = filtered.filter(r => r.native || (r.origin || '').toLowerCase().includes('california'));
+
+    // Sort: alphabetical by botanical
+    filtered.sort((a, b) => a.botanical.localeCompare(b.botanical));
+
+    document.getElementById('resultCount').textContent = filtered.length;
+    document.getElementById('filterActive').hidden = !(q || state.containers.size || state.bloomsOnly || state.calOnly);
+
+    const root = document.getElementById('results');
+    if (filtered.length === 0) {
+      root.innerHTML = '<div class="no-results"><h3>No plants match</h3><p>Try a different search or clear the filters.</p></div>';
+      return;
+    }
+
+    // Group by botanical so same plant in multiple sizes shows together
+    const grouped = new Map();
+    for (const r of filtered) {
+      if (!grouped.has(r.botanical)) grouped.set(r.botanical, { plant: r, sizes: [] });
+      grouped.get(r.botanical).sizes.push(r);
+    }
+
+    const html = [];
+    for (const { plant, sizes } of grouped.values()) {
+      const sizeRows = sizes.map(s => `
+        <div class="size">
+          <span class="label">${escapeHTML(s.container)}</span>
+          <span class="price">${escapeHTML(priceLabel(s.price))}</span>
+        </div>
+      `).join('');
+
+      const meta = [];
+      if (plant.section) meta.push(`<span class="pill section">${escapeHTML(plant.section)}</span>`);
+      if (plant.height || plant.width) {
+        const hw = [plant.height, plant.width].filter(Boolean).join(' &times; ');
+        if (hw) meta.push(`<span class="pill">${escapeHTML(hw)}</span>`);
+      }
+      if (plant.flower_color) meta.push(`<span class="pill">${escapeHTML(plant.flower_color)}</span>`);
+      if (plant.flower_time) meta.push(`<span class="pill">${escapeHTML(plant.flower_time)}</span>`);
+      if (plant.origin) meta.push(`<span class="pill">${escapeHTML(plant.origin)}</span>`);
+      if (plant.bloom) meta.push(`<span class="pill bloom">In bloom</span>`);
+      if (plant.native) meta.push(`<span class="pill cal">CA native</span>`);
+
+      html.push(`
+        <article class="plant">
+          <div class="plant-main">
+            <div class="plant-name">${escapeHTML(plant.botanical)}</div>
+            ${plant.common ? `<div class="plant-common">${escapeHTML(plant.common)}</div>` : ''}
+            ${meta.length ? `<div class="plant-meta">${meta.join('')}</div>` : ''}
+          </div>
+          <div class="plant-sizes">${sizeRows}</div>
+        </article>
+      `);
+    }
+    root.innerHTML = html.join('');
+  }
+
+  // Wire up search
+  const qEl = document.getElementById('q');
+  const clearBtn = document.getElementById('clearBtn');
+  qEl.addEventListener('input', () => {
+    state.q = qEl.value;
+    clearBtn.hidden = !state.q;
+    render();
+  });
+  clearBtn.onclick = () => { qEl.value = ''; state.q = ''; clearBtn.hidden = true; qEl.focus(); render(); };
+
+  // Header labels
+  document.getElementById('weekLabel').textContent = DATA.week;
+  document.getElementById('generatedLabel').textContent = DATA.generated;
+
+  rebuildChips();
+  render();
+})();
+</script>
+
+</body>
+</html>
