@@ -2295,7 +2295,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Helleborus arguAfolius 'Pacific Frost'",
+      "botanical": "Helleborus argutifolius 'Pacific Frost'",
       "common": "Corsican hellebore",
       "section": "General Nursery",
       "sizes": [
@@ -2550,7 +2550,7 @@ window.AVAILABILITY = {
       "bud": true
     },
     {
-      "botanical": "Lavandula angusAfolia ‘Munstead’",
+      "botanical": "Lavandula angustifolia ‘Munstead’",
       "common": "English Lavender",
       "section": "General Nursery",
       "sizes": [
@@ -2713,7 +2713,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "LeonoAs menthifolia 'Savannah Sunset'",
+      "botanical": "Leonotis menthifolia 'Savannah Sunset'",
       "common": "Lion’s tail",
       "section": "General Nursery",
       "sizes": [
@@ -3201,7 +3201,7 @@ window.AVAILABILITY = {
       "native": false
     },
     {
-      "botanical": "PiIosporum 'Elfin'",
+      "botanical": "Pittosporum 'Elfin'",
       "common": "Tawhiwhi, Kohuhu",
       "section": "General Nursery",
       "sizes": [
@@ -3219,7 +3219,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "PiIosporum 'Wrinkle Blue'",
+      "botanical": "Pittosporum 'Wrinkle Blue'",
       "common": "Tawhiwhi, Kohuhu",
       "section": "General Nursery",
       "sizes": [
@@ -3237,7 +3237,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "PiIosporum eugenioides 'Variegatum'",
+      "botanical": "Pittosporum eugenioides 'Variegatum'",
       "common": "Lemonwood",
       "section": "General Nursery",
       "sizes": [
@@ -3255,7 +3255,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "PiIosporum tenuifolium 'Beach Ball'™",
+      "botanical": "Pittosporum tenuifolium 'Beach Ball'™",
       "common": "Beach Ball kohuhu",
       "section": "General Nursery",
       "sizes": [
@@ -3273,7 +3273,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "PiIosporum tenuifolium 'Harley Botanica'",
+      "botanical": "Pittosporum tenuifolium 'Harley Botanica'",
       "common": "Tawhiwhi, Kohuhu",
       "section": "General Nursery",
       "sizes": [
@@ -3295,7 +3295,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "PiIosporum tenuifolium 'Jade'",
+      "botanical": "Pittosporum tenuifolium 'Jade'",
       "common": "Tawhiwhi, Kohuhu",
       "section": "General Nursery",
       "sizes": [
