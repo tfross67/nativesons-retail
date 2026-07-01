@@ -17,17 +17,31 @@ a{color:#2d5016;text-decoration:none}
 a:hover{text-decoration:underline}
 
 header{
-  background:#2d5016;color:#fff;padding:14px 16px;
+  background:#2d5016;color:#fff;padding:12px 16px;
   position:sticky;top:0;z-index:10;
   box-shadow:0 1px 3px rgba(0,0,0,.08);
 }
-.brand{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.brand h1{font-size:18px;font-weight:600;letter-spacing:.2px}
-.brand .tag{font-size:12px;background:rgba(255,255,255,.15);padding:2px 8px;border-radius:10px}
-.contact-strip{font-size:13px;margin-top:6px;opacity:.92}
+.brand{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand-logo{
+  display:block;height:42px;width:auto;
+  /* the logo is cream-on-green and sits naturally on the green header */
+}
+.brand-tag{
+  font-size:12px;background:rgba(255,255,255,.15);padding:3px 10px;border-radius:10px;
+  letter-spacing:.3px;
+}
+.contact-strip{font-size:13px;margin-top:8px;opacity:.92}
 .contact-strip a{color:#fff;text-decoration:underline}
 .week-strip{font-size:12px;background:#fff;border-bottom:1px solid #e6e6e0;padding:8px 16px;color:#555}
 .week-strip strong{color:#2d5016}
+
+@media (min-width:600px){
+  .brand-logo{height:48px}
+}
+@media (min-width:900px){
+  .brand-logo{height:54px}
+  header{padding:14px 16px}
+}
 
 main{max-width:1100px;margin:0 auto;padding:0 16px 100px}
 
@@ -136,8 +150,8 @@ footer a{font-weight:600}
 
 <header>
   <div class="brand">
-    <h1>Native Sons Wholesale Nursery</h1>
-    <span class="tag">Weekly Availability</span>
+    <img class="brand-logo" src="logo.jpg" alt="Native Sons Wholesale Nursery" width="586" height="143">
+    <span class="brand-tag">Weekly Availability</span>
   </div>
   <div class="contact-strip">
     <a href="mailto:orders@nativeson.com">orders@nativeson.com</a> &middot;
