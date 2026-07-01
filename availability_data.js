@@ -524,7 +524,7 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "Rose-pink w/yellow stamens",
       "flower_time": "Summer - Fall",
-      "origin": "HGaorodde'n hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -738,8 +738,8 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Calamagros8s nutkae. x fol. 'Little Nootka'",
-      "common": "LiAle Nootka reed grass",
+      "botanical": "Calamagrostis nutkae. x fol. 'Little Nootka'",
+      "common": "Little Nootka reed grass",
       "section": "Grasses",
       "sizes": [
         {
@@ -757,7 +757,7 @@ window.AVAILABILITY = {
     },
     {
       "botanical": "Callistemon 'Woodlander's Hardy Red'",
-      "common": "BoDlebrush",
+      "common": "Bottlebrush",
       "section": "General Nursery",
       "sizes": [
         {
@@ -775,7 +775,7 @@ window.AVAILABILITY = {
     },
     {
       "botanical": "Callistemon viminalis 'Slim'",
-      "common": "Slim boDlebrush",
+      "common": "Slim bottlebrush",
       "section": "General Nursery",
       "sizes": [
         {
@@ -1374,7 +1374,7 @@ window.AVAILABILITY = {
       "native": false
     },
     {
-      "botanical": "Convolvulus saba4us",
+      "botanical": "Convolvulus sabatius",
       "common": "Ground morning glory",
       "section": "General Nursery",
       "sizes": [
@@ -1392,7 +1392,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Convolvulus saba4us 'Prime White'",
+      "botanical": "Convolvulus sabatius 'Prime White'",
       "common": "Prime White convolvulus",
       "section": "General Nursery",
       "sizes": [
@@ -1885,7 +1885,7 @@ window.AVAILABILITY = {
       "width": "4-6'",
       "flower_color": "White, tubular",
       "flower_time": "Summer - Fall",
-      "origin": "Chile, ArgenBna",
+      "origin": "Chile, Argentina",
       "bloom": false,
       "bud": false
     },
@@ -2016,7 +2016,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Festuca amethys8na ‘Superba’",
+      "botanical": "Festuca amethystina ‘Superba’",
       "common": "Blue Sheep’s Fescue",
       "section": "Grasses",
       "sizes": [
@@ -2342,7 +2342,7 @@ window.AVAILABILITY = {
       ],
       "height": "12-18\"",
       "width": "12-18\"",
-      "flower_color": "SoR orange, maturing bright pBinlokom",
+      "flower_color": "Soft orange, maturing bright pink",
       "flower_time": "Summer",
       "origin": "Hybrid",
       "bloom": false,
@@ -2742,7 +2742,7 @@ window.AVAILABILITY = {
       ],
       "height": "3-4'",
       "width": "3-4'",
-      "flower_color": "SoR lavender",
+      "flower_color": "Soft lavender",
       "flower_time": "Spring - Summer",
       "origin": "California (Channel Islands)",
       "bloom": false,
@@ -3353,7 +3353,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Polys8chum munitum",
+      "botanical": "Polystichum munitum",
       "common": "Western sword fern",
       "section": "Grasses",
       "sizes": [
@@ -3893,7 +3893,7 @@ window.AVAILABILITY = {
       ],
       "height": "3-4'",
       "width": "3-4'",
-      "flower_color": "SoZ pink",
+      "flower_color": "Soft pink",
       "flower_time": "Summer - Fall",
       "origin": "Hybrid",
       "bloom": false,
@@ -4829,7 +4829,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Westringia fru8cosa 'Grey Box'",
+      "botanical": "Westringia fruticulosa 'Grey Box'",
       "common": "Dwarf Coast rosemary",
       "section": "Grasses",
       "sizes": [
@@ -4847,7 +4847,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Westringia fru8cosa ‘Smokey’",
+      "botanical": "Westringia fruticulosa ‘Smokey’",
       "common": "Coast rosemary",
       "section": "Grasses",
       "sizes": [
