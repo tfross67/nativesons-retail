@@ -22,7 +22,7 @@ window.AVAILABILITY = {
       "width": "3-4'",
       "flower_color": "Pale pink",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -44,7 +44,7 @@ window.AVAILABILITY = {
       "width": "3-4'",
       "flower_color": "White",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -66,7 +66,7 @@ window.AVAILABILITY = {
       "width": "3-4'",
       "flower_color": "White",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -138,7 +138,7 @@ window.AVAILABILITY = {
       "width": "8-12\"",
       "flower_color": "White Bloom",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -156,7 +156,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Red",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": true
     },
@@ -210,7 +210,7 @@ window.AVAILABILITY = {
       "width": "8-12\"",
       "flower_color": "Red with yellow centers Bloom",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -282,7 +282,7 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "White and dark blue",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": true
     },
@@ -300,7 +300,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Light blue Bloom",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -358,7 +358,7 @@ window.AVAILABILITY = {
       "width": "1-2'",
       "flower_color": "N/A",
       "flower_time": "N/A",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -376,7 +376,7 @@ window.AVAILABILITY = {
       "width": "6-8\"",
       "flower_color": "Yellow",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -546,7 +546,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Cerise",
       "flower_time": "Spring - Summer - Fall - Winter",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -697,13 +697,13 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Yellow Bloom",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
     {
       "botanical": "Buddleja Buzz™ 'Midnight'",
-      "common": "BuDerfly bush",
+      "common": "Butterfly bush",
       "section": "General Nursery",
       "sizes": [
         {
@@ -715,7 +715,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Dark purple",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": true
     },
@@ -847,7 +847,7 @@ window.AVAILABILITY = {
     },
     {
       "botanical": "Campanula garganica ‘Dickson’s Gold’",
-      "common": "AdriaIc bellflower",
+      "common": "Adriatic bellflower",
       "section": "General Nursery",
       "sizes": [
         {
@@ -1028,7 +1028,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Dark blue Bloom",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1116,7 +1116,7 @@ window.AVAILABILITY = {
       ],
       "height": "10-15'",
       "width": "10-15'",
-      "flower_color": "Turqouise blue",
+      "flower_color": "Turquoise blue",
       "flower_time": "Spring - Summer",
       "origin": "California, Oregon",
       "bloom": false,
@@ -1154,7 +1154,7 @@ window.AVAILABILITY = {
       "width": "4-6'",
       "flower_color": "Dark blue",
       "flower_time": "Spring",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1314,7 +1314,7 @@ window.AVAILABILITY = {
       "width": "6-8'",
       "flower_color": "Magenta Bloom",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1499,7 +1499,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Golden yellow",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": true
     },
@@ -1744,7 +1744,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Epilobium canum ssp. la#folia ‘EvereE’s Choice’California",
+      "botanical": "Epilobium canum ssp. latifolia ‘Everett’s Choice’",
       "common": "fuchsia",
       "section": "General Nursery",
       "sizes": [
@@ -1775,7 +1775,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Lavender w/yellow centers",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1908,7 +1908,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Euphorbia 'Ascot Pe#te'",
+      "botanical": "Euphorbia 'Ascot Petite'",
       "common": "Spurge",
       "section": "General Nursery",
       "sizes": [
@@ -1921,7 +1921,7 @@ window.AVAILABILITY = {
       "width": "8-12\"",
       "flower_color": "Lime green Bloom",
       "flower_time": "Spring",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1939,7 +1939,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Lime green",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -1980,7 +1980,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Euphorbia x mar#nii 'Ascot Rainbow'",
+      "botanical": "Euphorbia x martinii 'Ascot Rainbow'",
       "common": "Spurge",
       "section": "General Nursery",
       "sizes": [
@@ -1998,7 +1998,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Euphorbia x mar#nii 'Tiny Treasure'™",
+      "botanical": "Euphorbia x martinii 'Tiny Treasure'™",
       "common": "Spurge",
       "section": "General Nursery",
       "sizes": [
@@ -2011,7 +2011,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Lime green Bloom",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2158,7 +2158,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Orange",
       "flower_time": "Spring",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2326,7 +2326,7 @@ window.AVAILABILITY = {
       "width": "1-2'",
       "flower_color": "N/A",
       "flower_time": "N/A",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2344,7 +2344,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Soft orange, maturing bright pink",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2618,7 +2618,7 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "Lavender Bloom",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2636,7 +2636,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Purple Bloom",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2659,7 +2659,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Lavandula x allardii 'Sweet PeAte'",
+      "botanical": "Lavandula x allardii 'Sweet Petite'",
       "common": "Compact Sweet Lavender",
       "section": "General Nursery",
       "sizes": [
@@ -2690,7 +2690,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Lavender",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2825,7 +2825,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Red, maturing to cream",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -2983,7 +2983,7 @@ window.AVAILABILITY = {
       "native": false
     },
     {
-      "botanical": "Pallenis mariFma",
+      "botanical": "Pallenis maritima",
       "common": "Gold coin",
       "section": "General Nursery",
       "sizes": [
@@ -3038,8 +3038,8 @@ window.AVAILABILITY = {
       "native": false
     },
     {
-      "botanical": "Pelargonium 'Bronze LiIle Leaf'",
-      "common": "Bronze LiDle Leaf Zonal",
+      "botanical": "Pelargonium 'Bronze Little Leaf'",
+      "common": "Bronze Little Leaf Zonal",
       "section": "General Nursery",
       "sizes": [
         {
@@ -3051,7 +3051,7 @@ window.AVAILABILITY = {
       "width": "8-12\"",
       "flower_color": "Pink Bloom",
       "flower_time": "Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -3069,7 +3069,7 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "Mauve w/maroon",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -3335,7 +3335,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Polygala myrFfolia 'Mariposa'",
+      "botanical": "Polygala myrtifolia 'Mariposa'",
       "common": "Compact sweet pea bush",
       "section": "General Nursery",
       "sizes": [
@@ -3391,7 +3391,7 @@ window.AVAILABILITY = {
     },
     {
       "botanical": "Prostanthera ovalifolia 'Variegata'",
-      "common": "Variegated Australian mint bush4-6'",
+      "common": "Variegated Australian mint bush",
       "section": "General Nursery",
       "sizes": [
         {
@@ -3535,7 +3535,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Rosmarinus officinalis 'HunEngton Carpet'",
+      "botanical": "Rosmarinus officinalis 'Huntington Carpet'",
       "common": "Rosemary",
       "section": "General Nursery",
       "sizes": [
@@ -3712,7 +3712,7 @@ window.AVAILABILITY = {
       "width": "4-6'",
       "flower_color": "Violet",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "California, Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -3748,7 +3748,7 @@ window.AVAILABILITY = {
       "width": "2-3'",
       "flower_color": "Magenta",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": true
     },
@@ -3766,7 +3766,7 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "White Bloom",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -3802,7 +3802,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "Hot pink and white Bloom",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -3895,7 +3895,7 @@ window.AVAILABILITY = {
       "width": "3-4'",
       "flower_color": "Soft pink",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -4033,7 +4033,7 @@ window.AVAILABILITY = {
     },
     {
       "botanical": "Santolina ‘Shades of Jade’",
-      "common": "Lavender co<on",
+      "common": "Lavender cotton",
       "section": "General Nursery",
       "sizes": [
         {
@@ -4088,7 +4088,7 @@ window.AVAILABILITY = {
       "native": false
     },
     {
-      "botanical": "Scabiosa columbaria 'Flu@er Deep Blue'",
+      "botanical": "Scabiosa columbaria 'Flutter Deep Blue'",
       "common": "Pincushion Flower",
       "section": "General Nursery",
       "sizes": [
@@ -4101,12 +4101,12 @@ window.AVAILABILITY = {
       "width": "8-12\"",
       "flower_color": "Blue Bloom",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
     {
-      "botanical": "Scabiosa columbaria 'Flu@er™ Pure White'",
+      "botanical": "Scabiosa columbaria 'Flutter™ Pure White'",
       "common": "Pincushion Flower",
       "section": "General Nursery",
       "sizes": [
@@ -4119,7 +4119,7 @@ window.AVAILABILITY = {
       "width": "12-18\"",
       "flower_color": "White Bloom",
       "flower_time": "Spring - Summer",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
@@ -4386,7 +4386,7 @@ window.AVAILABILITY = {
       "bud": false
     },
     {
-      "botanical": "Stachys byzanFna 'Big Ears'",
+      "botanical": "Stachys byzantina 'Big Ears'",
       "common": "Big-leafed lamb's ears",
       "section": "General Nursery",
       "sizes": [
@@ -4526,12 +4526,12 @@ window.AVAILABILITY = {
       "width": "18-24\"",
       "flower_color": "Deep pink Bloom",
       "flower_time": "Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
     {
-      "botanical": "Teucrium fruFcans ‘Azureum’",
+      "botanical": "Teucrium fruticans ‘Azureum’",
       "common": "Bush germander",
       "section": "General Nursery",
       "sizes": [
@@ -4693,7 +4693,7 @@ window.AVAILABILITY = {
       "width": "3-4'",
       "flower_color": "Purple",
       "flower_time": "Spring - Summer - Fall",
-      "origin": "Hybrid",
+      "origin": "Garden hybrid",
       "bloom": false,
       "bud": false
     },
