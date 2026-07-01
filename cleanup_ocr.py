@@ -77,6 +77,14 @@ FIXES = [
     # "Pittosporum tenuifolium 'Beach Ball'™" - leave
     # "Pittosporum eugenioides 'Variegatum'" - leave
     # "Itoh" / "Molly's" / etc. - leave alone
+    # PiIosporum → Pittosporum (capital I misread as t in PDF)
+    ("PiIosporum", "Pittosporum"),
+    # LeonoAs → Leonotis (capital A misread as t in PDF)
+    ("LeonoAs", "Leonotis"),
+    # arguAfolius → argutifolius (Helleborus)
+    ("arguAfolius", "argutifolius"),
+    # angusAfolia → angustifolia (Lavandula)
+    ("angusAfolia", "angustifolia"),
 ]
 
 # Patterns to also catch: any word in flower_color that ends in "m" but the actual word
