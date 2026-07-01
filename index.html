@@ -298,8 +298,12 @@ footer a{font-weight:600}
       const meta = [];
       if (plant.section) meta.push(`<span class="pill section">${escapeHTML(plant.section)}</span>`);
       if (plant.height || plant.width) {
-        const hw = [plant.height, plant.width].filter(Boolean).join(' &times; ');
-        if (hw) meta.push(`<span class="pill">${escapeHTML(hw)}</span>`);
+        // Use HTML entity for × directly in the template literal, not in escaped text
+        const h = escapeHTML(plant.height);
+        const w = escapeHTML(plant.width);
+        if (h && w) meta.push(`<span class="pill">${h} &times; ${w}</span>`);
+        else if (h) meta.push(`<span class="pill">${h}</span>`);
+        else if (w) meta.push(`<span class="pill">${w}</span>`);
       }
       if (plant.flower_color) meta.push(`<span class="pill">${escapeHTML(plant.flower_color)}</span>`);
       if (plant.flower_time) meta.push(`<span class="pill">${escapeHTML(plant.flower_time)}</span>`);
