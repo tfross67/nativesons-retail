@@ -1,4 +1,4 @@
-const AVAILABILITY_DATA = {
+const AVAILABILITY = {
   "week": "Week of July 6th, 2026",
   "generated": "2026-07-02",
   "source": "Native Sons Wholesale Nursery weekly availability list (joined to master plantdatabase.xlsx)",
