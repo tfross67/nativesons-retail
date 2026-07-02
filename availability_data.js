@@ -1,7 +1,7 @@
 var AVAILABILITY = {
   "week": "Week of July 6th, 2026",
   "generated": "2026-07-02",
-  "source": "Native Sons Wholesale Nursery weekly availability list (joined to master plantdatabase.xlsx)",
+  "source": "Native Sons Wholesale Nursery weekly availability list (joined to master plantdatabase.xlsx). Bloom/bud not annotated this week (xlsx doesn't include Bloom column - ask Native Sons to add or include Bloom column in the xlsx template if needed).",
   "contact": {
     "email": "orders@nativeson.com",
     "phone": "805.481.5996"
@@ -7356,7 +7356,9 @@ var AVAILABILITY = {
           "price": 80.0
         }
       ],
-      "source_sheet": "specimens"
+      "source_sheet": "specimens",
+      "bloom": false,
+      "bud": false
     },
     {
       "botanical": "Calocedrus decurrens",
@@ -7367,7 +7369,9 @@ var AVAILABILITY = {
           "price": 200.0
         }
       ],
-      "source_sheet": "specimens"
+      "source_sheet": "specimens",
+      "bloom": false,
+      "bud": false
     },
     {
       "botanical": "Pittosporum tenuifolium ‘Jade’",
@@ -7378,7 +7382,9 @@ var AVAILABILITY = {
           "price": 200.0
         }
       ],
-      "source_sheet": "specimens"
+      "source_sheet": "specimens",
+      "bloom": false,
+      "bud": false
     }
   ]
 };
