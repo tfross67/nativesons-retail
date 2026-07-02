@@ -1,7 +1,7 @@
 var AVAILABILITY = {
   "week": "Week of July 6th, 2026",
   "generated": "2026-07-02",
-  "source": "Native Sons Wholesale Nursery weekly availability list (joined to master plantdatabase.xlsx). Bloom/bud not annotated this week (xlsx doesn't include Bloom column - ask Native Sons to add or include Bloom column in the xlsx template if needed).",
+  "source": "Native Sons Wholesale Nursery weekly availability list (joined to master plantdatabase.xlsx). Bloom/bud flags extracted from the matching PDF availability list (pdfplumber extraction + canonical name match).",
   "contact": {
     "email": "orders@nativeson.com",
     "phone": "805.481.5996"
@@ -258,7 +258,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": "Generally evergreen (deciduous in cooler climates) this dwarf perennial grows to 10” high and spreads by stolons to form a 2’ wide clump. Bright orange-yellow flowers bloom from spring to fall, especially if faded flowers are removed periodically. Hardy to 0F. Southeastern North America.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -287,7 +287,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -370,7 +370,7 @@ var AVAILABILITY = {
       "soil": "Well drained / tolerates heavier soils",
       "special_uses": "Container Planting\nBorder Planting\nSmall area groundcover\nTrellis/Wall Planting\nRock garden\nCoastal garden\nShade garden\nErosion control\nSlope planting",
       "notes": "Santa Barbara daisy. Graceful, spreading perennial to 3’ with dainty flower heads opening pink and fading to white so that multiple shades of color appear simultaneously. A utilitarian and trouble free plant, consider placing it in large containers, rock gardens, hanging baskets or on a dry wall. Drought tolerant. Assertive reseeder in many gardens. Shear hard annually to maintain a fresh appearance. Hardy to 0F. Mexico to Panama.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -503,7 +503,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Border Planting",
       "notes": "Parahebe linifolia is a miniature New Zealand native shrub growing to 6 inches high and 8 inches wide. Charming white flowers cover the evergreen foliage from Spring through Fall. An excellent choice for border plantings it can be combined with Geranium 'Biokovo' or Carex testacea. Hardy to 15F.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -528,7 +528,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Dry Garden\nLarge area groundcover\nSlope Planting",
       "notes": "Drought tolerant. Formerly Lippia nodifera.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -578,7 +578,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Small area groundcover",
       "notes": "Full sun to partial shade; afternoon shade is helpful in hotter climates. Tolerates varying amounts of foot traffic.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -607,7 +607,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container planting\nAttracts butterflies\nAttracts birds",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -790,7 +790,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Rock Garden\nContainer Planting",
       "notes": "Loves heat and humudity. Pink texas skullcap has thyme-like foliage and has a dense growth habit, remaining neat and compact, the flowers are reminiscent of small snapdragon flowers. The flowers  are rose-red  in color and small.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -844,7 +844,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Herb Garden\nBorder Planting",
       "notes": "Wall germander. Perennial herb or sub-shrub to 20” tall, spreading to 2’. Upright, woody stems are covered in small, dark green, toothed leaves. Colorful spikes of lavender-purple flowers appear above the foliage from summer to fall. Useful as a border, for low knot garden hedges, edging or even massed as a small-scale groundcover. Shear once or twice a year for a tidy appearance. Prefers low to moderate amounts of supplemental water, tolerates heat and attracts bees. Hardy to 15F. Europe to Caucasus. Deer resistant.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -869,7 +869,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Small area groundcover\nRock Garden\nContainer Planting",
       "notes": "Charming prostrate perennial with small blue-green leaves held on creeping stems. Pale blue flowers form along the stems in spring and early summer. Full sun along the coast, shade elsewhere. Regular water. Hardy to 10F. Garden origin.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -2010,7 +2010,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Border planting\nSmall Gardens",
       "notes": "Believed to be a hybrid between A. millefolium  and A. ‘Taygetea’.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -2210,7 +2210,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -2439,7 +2439,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -2673,7 +2673,7 @@ var AVAILABILITY = {
       "special_uses": null,
       "notes": null,
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Caesalpinia mexicana",
@@ -2723,7 +2723,7 @@ var AVAILABILITY = {
       "special_uses": "Border planting\nScreen\nHedge Planting\nAttracts birds\nAttracts butterflies",
       "notes": null,
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Callistemon viminalis 'Slim'",
@@ -2798,7 +2798,7 @@ var AVAILABILITY = {
       "special_uses": "Container Planting\nRock Garden\nDry Garden\nBorder Planting",
       "notes": "This evergreen, low-growing perennial reaches less than 1’ tall and can spread to almost 3’. Bright yellow spring and summer blooming flowers accent the dark green, finely textured foliage. Plant in full sun and well-drained soils and provide moderate water. Best in dry conditions. Hardy to 0F. East and West Coasts of North America, Baja.",
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Caryopteris x clandonensis 'Gold Crest'",
@@ -3255,7 +3255,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Coastal garden\nShade garden\nSmall area groundcover\nBorder planting",
       "notes": "White breath of heaven. Plants grow 3-5’ tall and as wide, branching from the base. Tiny white flowers are borne throughout the summer.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3284,7 +3284,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Large area groundcover\nSlope planting\nBorder planting\nCoastal garden",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3309,7 +3309,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container Planting\nBorder Planting\nCoastal Garden",
       "notes": "A compact selection to 2 feet tall and 3 feet wide with glossy silver-white leaves. The white flowers are blushed with pink as they open through the spring and summer. A good choice for all of California, compact bush morning glory can be used in mixed borders or as a small scale ground cover. It's right, dense habit is especially useful in narrow beds, median strips and as a foundation planting. Hardy to 25F.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3334,7 +3334,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3359,7 +3359,7 @@ var AVAILABILITY = {
       "soil": "Well drained / tolerates heavier soils",
       "special_uses": "Groundcover, Container planting\nSmall area groundcover\nSlope planting\nContainer planting\nCoastal garden",
       "notes": "Ground morning glory. Evergreen perennial to 2’ high with trailing branches spreading to 3’ across. Lavender-blue flowers 1-2” across bloom from June to November. Grows well in light, gravelly soil with good drainage, but will tolerate clay soil if not over watered. Can become woody unless trimmed in late winter. Use as a groundcover or in hanging baskets.  Africa. Sometimes listed as Convolvulus mauritanicus.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3384,7 +3384,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container planting\nSmall area groundcover\nRock garden",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3539,7 +3539,7 @@ var AVAILABILITY = {
       "special_uses": null,
       "notes": "Compact shrub, 3-6’ tall and as wide. Flowers are cream to white and star-shaped, blooming in fall and winter. This vigorous selection is best suited to well-drained soils and filtered light but it will tolerate full sun especially along the coast. Another dependable, versatile Correa for California gardens.",
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Correa 'Wyn's Wonder'",
@@ -3663,7 +3663,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container planting\nAttracts butterflies\nAttracts birds",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -3888,7 +3888,7 @@ var AVAILABILITY = {
       "soil": "Most soil types",
       "special_uses": "Formal Hedge\nScreen\nContainer planting\nSlope planting\nWoodland planting\nBorder planting\nCoastal garden\nShade garden",
       "notes": "Grows to 3’ high with rose-red flowers.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -4063,7 +4063,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container planting\nBorder planting\nCut Flower",
       "notes": "Lime-green flowers marked with a dark central eye.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -4167,7 +4167,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Hedge Planting\nAttracts Birds",
       "notes": "Evergreen shrub 3-5’ tall and twice as wide with pinkish-red flowers held year round. Provide regular water to establish, then taper off as the plant matures. Hardy to 25F.\n\nSynonym: Grevillea thelemanniana var. fililoba",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -4693,7 +4693,7 @@ var AVAILABILITY = {
       "special_uses": "Border planting",
       "notes": null,
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Lepechinia fragrans 'El Tigre'",
@@ -5012,7 +5012,7 @@ var AVAILABILITY = {
       "soil": "Well drained / tolerates heavier soils",
       "special_uses": "Border Planting\nCoastal Garden\nDry Garden\nSmall area groundcover",
       "notes": "Same as Asteriscus maritimus.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -5087,7 +5087,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Container Planting\nBorder Planting",
       "notes": "Trailing habit.  Celery pelargonium, an unusual species geranium with lacy green foliage and cascading stems tipped with clusters of wispy fuchsia colored blossoms.  Spreading 4' and only growing up to 1' tall, makes it an excellent choice for border & slope planting.  Hardy to 20F.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -5829,7 +5829,7 @@ var AVAILABILITY = {
       "special_uses": null,
       "notes": "Cross between S. 'Waverly' and S. chiapensis.",
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Salvia 'Pozo Blue'",
@@ -5878,7 +5878,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Border planting\nContainer planting",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -5904,7 +5904,7 @@ var AVAILABILITY = {
       "special_uses": "Border planting\nContainer planting\nAttracts birds\nAttracts butterflies",
       "notes": null,
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Salvia greggii 'La Luna'",
@@ -6028,7 +6028,7 @@ var AVAILABILITY = {
       "soil": "Most soil types",
       "special_uses": "Dry Garden\nBorder Planting",
       "notes": "Dwarf Mexican sage. Finally, a dwarf selection of the omnipresent Mexican sage! Brand new to the trade, this variety looks and acts like its parent except that it reaches the manageable size of 2’ by 3’ without pruning. Rich purple-blue fuzzy flowers crown its graceful branches virtually year round in mild climates. The flower color seems to be an intermediate shade between the species and ‘Midnight’. Plant in full sun and provide an annual hard shearing to retain a full appearance.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -6107,7 +6107,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": "Heatwave™ series. A cross of microphylla forms with greggii varieties.  Heat and drought tolerant.  Deer resistant too.",
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -6132,7 +6132,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Border Planting\nCoastal Garden",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -6158,7 +6158,7 @@ var AVAILABILITY = {
       "special_uses": "Attracts butterflies",
       "notes": "Deer resistant.",
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Santolina ‘Shades of Jade’",
@@ -6408,7 +6408,7 @@ var AVAILABILITY = {
       "special_uses": "Border planting\nContainer planting",
       "notes": null,
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Teucrium chamaedrys 'Alba'",
@@ -6433,7 +6433,7 @@ var AVAILABILITY = {
       "special_uses": "Rock garden\nSmall area groundcover\nBorder planting\nHedge Planting\nAttracts butterflies\nCoastal garden",
       "notes": "Drought tolerant once established.  Deer Resistant.",
       "bloom": false,
-      "bud": false
+      "bud": true
     },
     {
       "botanical": "Teucrium chamaedrys 'Tickle Pink'",
@@ -6582,7 +6582,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Border Planting\nContainer Planting",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -6607,7 +6607,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -6657,7 +6657,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": null,
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -7190,7 +7190,7 @@ var AVAILABILITY = {
       "soil": "Well drained",
       "special_uses": "Slope Planting\nDry Garden\nBorder Planting",
       "notes": null,
-      "bloom": false,
+      "bloom": true,
       "bud": false
     },
     {
@@ -7388,4 +7388,3 @@ var AVAILABILITY = {
     }
   ]
 };
-
